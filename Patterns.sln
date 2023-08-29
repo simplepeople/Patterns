@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{BB4A5FD1-DC79-4A80-99B4-97A2566FB349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Behavioral\Strategy", "{9EB86D2C-5612-45F0-8CFA-2F0556D88E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.Core", "Behavioral\Strategy\Strategy.Core\Strategy.Core.csproj", "{2B912826-83A5-4BDF-8CA3-9EF711718A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.Tests", "Behavioral\Strategy\Strategy.Tests\Strategy.Tests.csproj", "{1F844FF1-1FD8-4D40-91B1-E94C7EA17417}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "Behavioral\TemplateMethod", "{F6E7E61E-0C3D-421F-AC30-AB204FB311EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.Core", "Behavioral\TemplateMethod\TemplateMethod.Core\TemplateMethod.Core.csproj", "{11042F8E-D36D-40CC-8A09-D599BCBD159C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.Tests", "Behavioral\TemplateMethod\TemplateMethod.Tests\TemplateMethod.Tests.csproj", "{A78B6875-CAED-429A-A707-22AF6D61B774}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{C296911A-A830-4FE9-A991-930C0EFFA216}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{0A1663F6-38FB-4F8F-BA2C-3CF8341A4DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B912826-83A5-4BDF-8CA3-9EF711718A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B912826-83A5-4BDF-8CA3-9EF711718A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B912826-83A5-4BDF-8CA3-9EF711718A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B912826-83A5-4BDF-8CA3-9EF711718A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F844FF1-1FD8-4D40-91B1-E94C7EA17417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F844FF1-1FD8-4D40-91B1-E94C7EA17417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F844FF1-1FD8-4D40-91B1-E94C7EA17417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F844FF1-1FD8-4D40-91B1-E94C7EA17417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78B6875-CAED-429A-A707-22AF6D61B774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78B6875-CAED-429A-A707-22AF6D61B774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78B6875-CAED-429A-A707-22AF6D61B774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78B6875-CAED-429A-A707-22AF6D61B774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11042F8E-D36D-40CC-8A09-D599BCBD159C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11042F8E-D36D-40CC-8A09-D599BCBD159C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11042F8E-D36D-40CC-8A09-D599BCBD159C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11042F8E-D36D-40CC-8A09-D599BCBD159C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0BD7C8F-E7D9-4B4C-9B76-941DC3652805}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B912826-83A5-4BDF-8CA3-9EF711718A8B} = {9EB86D2C-5612-45F0-8CFA-2F0556D88E25}
+		{1F844FF1-1FD8-4D40-91B1-E94C7EA17417} = {9EB86D2C-5612-45F0-8CFA-2F0556D88E25}
+		{11042F8E-D36D-40CC-8A09-D599BCBD159C} = {F6E7E61E-0C3D-421F-AC30-AB204FB311EB}
+		{A78B6875-CAED-429A-A707-22AF6D61B774} = {F6E7E61E-0C3D-421F-AC30-AB204FB311EB}
+		{9EB86D2C-5612-45F0-8CFA-2F0556D88E25} = {BB4A5FD1-DC79-4A80-99B4-97A2566FB349}
+		{F6E7E61E-0C3D-421F-AC30-AB204FB311EB} = {BB4A5FD1-DC79-4A80-99B4-97A2566FB349}
+	EndGlobalSection
+EndGlobal
