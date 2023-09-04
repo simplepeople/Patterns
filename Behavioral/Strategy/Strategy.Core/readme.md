@@ -19,8 +19,8 @@ classDiagram
 
 
     class FileLogReader
-    ILogReader <|-- FileLogReader
+    ILogReader <|.. FileLogReader
     
     class WindowsEventFileReader
-    ILogReader <|-- WindowsEventFileReader
+    ILogReader <|.. WindowsEventFileReader
 ```
