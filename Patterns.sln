@@ -11,12 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.Core", "Behavioral
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.Tests", "Behavioral\Strategy\Strategy.Tests\Strategy.Tests.csproj", "{1F844FF1-1FD8-4D40-91B1-E94C7EA17417}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "Behavioral\TemplateMethod", "{F6E7E61E-0C3D-421F-AC30-AB204FB311EB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.Core", "Behavioral\TemplateMethod\TemplateMethod.Core\TemplateMethod.Core.csproj", "{11042F8E-D36D-40CC-8A09-D599BCBD159C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.Tests", "Behavioral\TemplateMethod\TemplateMethod.Tests\TemplateMethod.Tests.csproj", "{A78B6875-CAED-429A-A707-22AF6D61B774}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{C296911A-A830-4FE9-A991-930C0EFFA216}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{0A1663F6-38FB-4F8F-BA2C-3CF8341A4DFC}"
@@ -26,6 +20,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Core", "Structural\Composite\Composite.Core\Composite.Core.csproj", "{71528125-9891-4398-BF1C-C5C5491C72F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Tests", "Structural\Composite\Composite.Tests\Composite.Tests.csproj", "{5CC459AA-9F04-46B2-93C3-17C2132E79CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{F0E38EC4-4127-4A2D-96AA-A7C0FA8F9475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory.Tests", "Creational\AbstractFactory\AbstractFactory.Tests\AbstractFactory.Tests.csproj", "{CDC3CA35-D145-4204-BCFF-883C1E1F68AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory.Core", "Creational\AbstractFactory\AbstractFactory.Core\AbstractFactory.Core.csproj", "{C17CCCC5-A685-449F-BF6D-995739D58004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +57,14 @@ Global
 		{5CC459AA-9F04-46B2-93C3-17C2132E79CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC459AA-9F04-46B2-93C3-17C2132E79CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC459AA-9F04-46B2-93C3-17C2132E79CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC3CA35-D145-4204-BCFF-883C1E1F68AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC3CA35-D145-4204-BCFF-883C1E1F68AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC3CA35-D145-4204-BCFF-883C1E1F68AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC3CA35-D145-4204-BCFF-883C1E1F68AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17CCCC5-A685-449F-BF6D-995739D58004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17CCCC5-A685-449F-BF6D-995739D58004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17CCCC5-A685-449F-BF6D-995739D58004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17CCCC5-A685-449F-BF6D-995739D58004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +82,8 @@ Global
 		{2C86C780-AEED-4C6C-B9B2-3C236AAB71DF} = {C296911A-A830-4FE9-A991-930C0EFFA216}
 		{71528125-9891-4398-BF1C-C5C5491C72F1} = {2C86C780-AEED-4C6C-B9B2-3C236AAB71DF}
 		{5CC459AA-9F04-46B2-93C3-17C2132E79CA} = {2C86C780-AEED-4C6C-B9B2-3C236AAB71DF}
+		{F0E38EC4-4127-4A2D-96AA-A7C0FA8F9475} = {0A1663F6-38FB-4F8F-BA2C-3CF8341A4DFC}
+		{CDC3CA35-D145-4204-BCFF-883C1E1F68AC} = {F0E38EC4-4127-4A2D-96AA-A7C0FA8F9475}
+		{C17CCCC5-A685-449F-BF6D-995739D58004} = {F0E38EC4-4127-4A2D-96AA-A7C0FA8F9475}
 	EndGlobalSection
 EndGlobal
